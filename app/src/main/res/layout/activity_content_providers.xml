@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FAF2C8"
+    tools:context=".ContentProvidersActivity">
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:text="Komponen Content Provider"
+        android:textColor="#001CD4"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="36dp"
+        android:text="Komponen Content Provider adalah Penyedia konten di Android yang menyediakan cara yang fleksibel untuk membuat data yang tersedia di seluruh aplikasi. Misalkan Anda membuat semua jenis data dalam aplikasi Anda (misalnya menganggap Anda membuat daftar yang harus dilakukan dalam aplikasi Anda, maka daftar hal-hal adalah data) dan Anda menyimpannya pada setiap lokasi penyimpanan, mungkin dalam data base, sistem file atau dalam ruang penyimpanan online. Kemudian melalui penyedia konten aplikasi lain dapat query, akses atau bahkan memodifikasi data yang Anda buat, selama penyedia konten Anda memungkinkan. Dalam cara yang sama Anda dapat mengakses data yang utilitas lain telah dibuat, dengan menggunakan penyedia konten."
+        android:textColor="#0C0000"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView6" />
+
+    <Button
+        android:id="@+id/button12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="172dp"
+        android:layout_marginTop="88dp"
+        android:background="#CDDC39"
+        android:text="Syntax"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView9" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="148dp"
+        android:background="#CDDC39"
+        android:onClick="LinkContentProviders"
+        android:text="Link"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.532"
+        app:layout_constraintStart_toStartOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

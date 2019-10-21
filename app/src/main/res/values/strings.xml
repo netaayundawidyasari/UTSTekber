@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">UTS Tekber</string>
+    <string name="title">Teknologi Bergerak</string>
+    <string name="activity">Activity</string>
+    <string name="service">Service</string>
+    <string name="intent">Intent</string>
+    <string name="content_providers">Content Providers</string>
+    <string name="broadcast_receiver">Broadcast Receiver</string>
+</resources>
